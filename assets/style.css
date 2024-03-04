@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(34, 28, 34); 
+    color:cyan;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+header img{
+    width: 150px;
+    height: 110px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+}
+header ul li{
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 18px;
+    width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li:hover{
+    background-color: rgb(17, 17, 17);
+}
+
+main{
+    overflow: hidden;
+    
+}
+body{
+    background-color:rgb(73, 66, 66);
+}
+.main{
+    width: 400%;
+    display: flex;
+    
+}
+.main .create{
+    display: flex;
+    justify-content: center;
+    width: 23.79%;
+    align-items: center;
+    padding: 30px;
+}
+.main .create input[type="text"]{
+    border: none;
+    border-bottom: 1px solid cyan;
+    outline: none;
+    background-color: rgb(34, 28, 34);
+    color: cyan;
+}
+.main .create .container-c{
+    font-weight: bold;
+    background-color: rgb(34, 28, 34);
+    color: cyan;
+    border-radius: 20px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+.main .form{
+    width: 100%;
+    padding: 10px;
+}
+.main .form p{
+    margin: 14px 0px 0px;
+}
+.main .form .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px;
+}
+.main .form button{
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: cyan;
+    color: rgb(34, 28, 34);
+    font-weight: bold;
+}
+.main .update{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+.main .read{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+.main .read .container-r{
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(34, 28, 34);
+    margin: 30px 0px 0px;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: cyan;
+}
+.div-value-container-r{
+    padding: 10px;
+    background-color: rgb(14, 11, 14);
+    border-radius: 20px;
+    margin: 5px 0px 0px;
+    width: 90%;
+}
+.main .delete{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+.main .container-d{
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(34, 28, 34);
+    margin: 30px 0px 0px;
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: cyan;
+}
+.clear{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
